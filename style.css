@@ -1,0 +1,62 @@
+html {
+    height: 100vh;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.row {
+    max-width: 50%;
+    margin: auto auto;
+    padding: 2%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+table {
+    margin: auto auto;
+    border: 2px solid;
+    padding: 10px 10px;
+}
+
+tr {
+    padding-top: 0px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.foo {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.f-left {
+    position: absolute;
+    bottom: 0px;
+    padding: 0 2px;
+    border: 1px solid;
+}
+
+.f-right {
+    float: right;
+}
+
+.foto {
+    height: 50px;
+    width: 50px;
+}
